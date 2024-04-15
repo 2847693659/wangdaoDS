@@ -30,3 +30,24 @@
 *.exe
 *.out
 *.app
+
+# Built-in files
+.idea
+**/.idea
+*.iws
+ 
+# Logs
+*.log
+ 
+# CLion user specific files
+*.clion-workspace
+ 
+# User-specific files
+*.iml
+ 
+# CMake generated files
+cmake-build-debug/
+**/cmake-build-debug/
+ 
+# Shared data
+.DS_Store
